@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: 
+    #011f3f;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fef2bf;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 80px 0px 100px 0px ;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.green{
+    background-color:#008000;
+    height: 200px;
+    width: 200px;
+    border: 9px solid black;
+    border-radius: 30px ;
+}
+
+.red{
+    background-color:#ff0000;
+    height: 200px;
+    width: 200px;
+    border: 9px solid black;
+    border-radius: 30px ;
+}
+
+.yellow{
+    background-color:#ffff00;
+    height: 200px;
+    width: 200px;
+    border: 9px solid black;
+    border-radius: 30px ;
+}
+
+
+.blue{
+    background-color: #0000ff;
+    height: 200px;
+    width: 200px;
+    border: 9px solid black;
+    border-radius: 30px ;
+}
+
+
+.animation{
+    opacity: 0.5;
+}
+
+
